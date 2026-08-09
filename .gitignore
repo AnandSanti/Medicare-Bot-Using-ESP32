@@ -1,0 +1,33 @@
+# Arduino build files
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+build/
+
+# ESP32 and PlatformIO
+.pio/
+.platformio/
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Credentials, never commit these
+credentials.h
+secrets.h
+config.h
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
