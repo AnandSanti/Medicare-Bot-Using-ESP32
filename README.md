@@ -1,4 +1,8 @@
-# Medicare Bot
+# Medicare Bot 
+
+Project Date: December 2024
+Type: Academic Project
+Published on GitHub: August 2026
 
 Medicare Bot is an ESP32-based health monitoring system. It measures heart rate, blood oxygen saturation, and body temperature, evaluates the readings against configurable thresholds, and publishes the data to an MQTT broker over a secure connection. Local feedback is provided through an LED and a buzzer, and an emergency button lets the wearer signal for help.
 
